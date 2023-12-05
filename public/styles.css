@@ -1,0 +1,18 @@
+footer{
+    background-color:blueviolet;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    color: #ffff;
+}
+
+.titulo{
+    
+    text-align: center;
+}
+
+.usuarios{
+    color:red;
+}

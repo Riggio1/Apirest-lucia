@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="titulo">
+        <h1>API Visitway</h1>
+        <p>Aca vas a poder encotrar las excursiones que mas te gusten</p>
+    </main>
+
+    <div>
+        <div>
+            <h2>GET</h2>
+            <p>http://localhost:3000/excursiones</p>
+            <p>Esta URL podemos obtener todo el listado de excursiones</p>
+        </div>
+
+        <div>
+            <h2>POST</h2>
+            <p>http://localhost:3000/excursiones</p>
+            <p>Aca se van a poder crear nuevas excursiones</p>
+            <p>Es necesario enviar por body el titulo , descripcion, precio y ubicacion</p>
+        </div>
+
+        <div>
+            <h2>PUT</h2>
+            <p>http://localhost:3000/excursiones/:titulo</p>
+            <p>Aca se van a poder editar las excursiones</p>
+            <p>Es necesario enviar por body el titulo , descripcion y precio</p>
+        </div>
+
+        <div>
+            <h2>GET</h2>
+            <p>http://localhost:3000/excursiones/resultados</p>
+            <p>Aca se van a poder paginar los resultados de las excursiones</p>
+        </div>
+
+        <div>
+            <h2>GET</h2>
+            <p>http://localhost:3000/excursiones/precio</p>
+            <p>Aca se van a ordenar las excursiones de menor a mayor precio</p>
+        </div>
+
+        <div>
+            <h2>DELETE</h2>
+            <p>http://localhost:3000/excursiones/:id</p>
+            <p>Aca te vas a poder eliminar la excursion de acuerdo a su ID</p>
+        </div>
+
+        <div>
+            <h2>GET</h2>
+            <p>http://localhost:3000/excursiones/:id</p>
+            <p>Aca te va a traer la excursion de acuerdo a su ID</p>
+        </div>
+
+        <div>
+            <h2>GET</h2>
+            <p>http://localhost:3000/ubicacion/:ubicacion</p>
+            <p>Aca se filtra las excursiones por ubicación</p>
+        </div>
+    </div>
+
+    <div>
+            <p class="usuarios"><strong>USUARIOS</strong></p>
+        <div>
+            <h2>GET</h2>
+            <p>http://localhost:3000/usuarios</p>
+            <p>Esta URL podemos obtener todo el listado de usuarios</p>
+        </div>
+
+        <div>
+            <h2>POST</h2>
+            <p>http://localhost:3000/usuarios</p>
+            <p>Aca se van a poder crear nuevas usuarios</p>
+            <p>Es necesario enviar por body el nombre , email, password y edad</p>
+        </div>
+
+        <div>
+            <h2>GET</h2>
+            <p>http://localhost:3000/usuarios/:nombre</p>
+            <p>Esta URL podemos obtener un usuario segun su nombre</p>
+        </div>
+
+        <div>
+            <h2>GET</h2>
+            <p>http://localhost:3000/usuarios/edad/:edad</p>
+            <p>Aca se filtra las edades de los usuarios</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Lucia Riggio 2023 - DWN4AP - Camila Belén Marcos Galbán</p>
+    </footer>
+</body>
+</html>
